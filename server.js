@@ -8,7 +8,7 @@ const Users = require('./schema.js');
 
 //body-parser 
 const bodyParser = require('body-parser');
-const port =3330;
+const port =3300;
 
 //initiating schema.js in mongoose
 mongoose.connect('mongodb://localhost/students', (err)=>{
